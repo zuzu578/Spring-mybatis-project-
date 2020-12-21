@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<form>
+<div class="find-id">
+<div class="input-group mb-3">
+  
+  <input type="text" class="form-control" id="name" name="name" placeholder="name" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+
+<div class="input-group mb-3">
+  <input type="email" class="form-control" id="email"name="email"placeholder="email" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+<button type="button" id="findmyid" name="findmyid" class="btn btn-primary btn-lg">Find my ID</button>
+<div class="input-group mb-3">
+  <input type="text" class="form-control" id="id" name="id" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+</div>
+</form>
+
+
+
+</body>
+</html>
